@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Angular10Learning"
+    }
+  },
+  "defaultProject": "Angular10Learning",
+  "cli": {
+    "analytics": false
+  }
 }
