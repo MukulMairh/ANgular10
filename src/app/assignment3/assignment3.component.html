@@ -1,0 +1,16 @@
+<div class="container" style="border :1px solid black;">
+    <div class="m-1">
+        <h2> Assigment 3</h2>
+    </div>
+    <div class="m-2">
+        <button class="btn btn-primary" (click)="hidePara=!hidePara; myFunc()">Display Details</button>
+        <p [hidden]="hidePara">Oh you got my hidden paragraph....</p>
+    </div>
+    <div style="display: flex;">
+        <p *ngFor="let item of myArr" [ngStyle]="{backgroundColor: item > 4 ? 'blue' : 'transparent'}"
+            [ngClass]="{'white-font': item >4}"> {{item}},
+        </p>
+    </div>
+    <p></p>
+
+</div>
